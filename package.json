@@ -1,0 +1,11 @@
+{
+  "name": "dinoapp",
+  "version": "0.1.0",
+  "description": "communicate with aps via voice",
+  "main": "app/main.js",
+  "author": "b0ch3n",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron app/main.js "
+    }
+}
