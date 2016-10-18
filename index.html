@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> 
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css"> 
+  <script>
+
+</script>
+ </head>
+ <body onload="">
+
+    <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h1>Hello World!</h1>
+   We are using Electron 
+   <script> document.write(process.versions['electron']) </script> on 
+   <script> document.write(process.platform) </script>
+   <script type="text/javascript"> 
+      var fs = require('fs');
+      var file = fs.readFileSync('package.json'); 
+      document.write(file); 
+   </script>
+
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+  </div>
+</div>
+    
+
+
+ </body>
+</html>
